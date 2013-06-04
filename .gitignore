@@ -5,7 +5,7 @@
 *.dex
 *.*.class
 *.jar
-D-10/D_10_v_2_0_e_2_Make_dir/application.linux32/*.*
-D-10/D_10_v_2_0_e_2_Make_dir/application.linux64/*.*
-D-10/D_10_v_2_0_e_2_Make_dir/application.windows32/*.*
-D-10/D_10_v_2_0_e_2_Make_dir/application.windows64/*.*
+
+D-10/D_10_v_2_0_e_1_Touch_and_Bg_changes/application.*
+D-10/D_10_v_2_0_e_2_Make_dir/application.*
+D-10/D_10_v_2_0_e_2a_Make_dir_sdcard_ext/application.*
