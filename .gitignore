@@ -1,0 +1,11 @@
+*.class
+*.cache
+*.apk
+*.ap_
+*.dex
+*.*.class
+*.jar
+D-10/D_10_v_2_0_e_2_Make_dir/application.linux32/*.*
+D-10/D_10_v_2_0_e_2_Make_dir/application.linux64/*.*
+D-10/D_10_v_2_0_e_2_Make_dir/application.windows32/*.*
+D-10/D_10_v_2_0_e_2_Make_dir/application.windows64/*.*
