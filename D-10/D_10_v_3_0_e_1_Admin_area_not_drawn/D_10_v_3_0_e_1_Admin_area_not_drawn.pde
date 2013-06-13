@@ -12,9 +12,9 @@ import java.util.Date;
 
 String dirname = "//sdcard-ext/processing";
 
-/* Methods: 
-
-*/
+/********************************************** 
+  Methods: 
+***********************************************/
 public static long getMillSeconds_now() {
   
   Calendar cal = Calendar.getInstance();
@@ -31,7 +31,16 @@ public static String get_TimeLabel(long millSec) {
   
 }//public static String get_TimeLabel(long millSec)
 
+boolean isIn_Admin_SaveFile() {
+    
+    return (mouseX > 0 && mouseX < 100
+          && mouseY > 0 && mouseY < 100) ? true : false;
+  
+}
 
+/********************************************** 
+  Methods: Basics 
+***********************************************/
 void setup() {
   size(displayWidth, displayHeight);
   
@@ -53,8 +62,9 @@ void setup() {
 void draw() {
   if (mousePressed) {
     
-    if (mouseX > 0 && mouseX < 100
-          && mouseY > 0 && mouseY < 100) {
+//    if (mouseX > 0 && mouseX < 100
+//          && mouseY > 0 && mouseY < 100) {
+    if (isIn_Admin_SaveFile()) {
 
 //        save("/mnt/sdcard-ext/D-10_v-2-0_e-1.png");  // => Error
 //        save("//mnt/sdcard-ext/D-10_v-2-0_e-1.png");  // => Error
@@ -74,8 +84,7 @@ void draw() {
     }
     
   } else {
-      if (mouseX > 0 && mouseX < 100
-        && mouseY > 0 && mouseY < 100) {
+      if (isIn_Admin_SaveFile()) {
           
       } else {
 
